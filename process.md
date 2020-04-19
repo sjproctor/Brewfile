@@ -6,7 +6,6 @@
 - $ brew file init
 
 
-
 ➜  ~ brew file init
 Do you want to set a repository (y)? ((n) for local Brewfile). [y/n]: y
 
@@ -34,3 +33,6 @@ Please make sure you have the correct access rights
 and the repository exists.
 GitHub repository: sjproctor/brewfile doesn't exist.
 do you want to create the repository? [y/n]:   
+
+
+In .config/brewfile/Brewfile   -   git sjproctor/brewfile
