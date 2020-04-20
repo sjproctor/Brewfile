@@ -1,9 +1,18 @@
 ## Brewfile Setup Process
 
+You can use Homebrew to download automatically the tools what you want to use. Brewfile is the file that defines the tools you want to download automatically via Homebrew.
+
+
 - created a repo called brewfile and a file called Brewfile
 - added installs and cask installs
+
+
+
+
 - $ brew install rcmdnk/file/brew-file
 - $ brew file init
+
+This creates a file in .config called Brewfile
 
 
 ➜  ~ brew file init
@@ -36,3 +45,4 @@ do you want to create the repository? [y/n]:
 
 
 In .config/brewfile/Brewfile   -   git sjproctor/brewfile
+Now modified to: git https://github.com/sjproctor/brewfile
