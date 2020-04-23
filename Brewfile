@@ -1,15 +1,11 @@
-# Tap homebrew
-# tap 'homebrew/cask'
-# tap 'homebrew/cask-drivers'
-# tap 'homebrew/cask-fonts'
-# tap 'homebrew/cask-versions'
-# tap 'homebrew/core'
-# tap 'homebrew/boneyard'
-# tap 'homebrew/dev-tools'
-# tap 'homebrew/bundle'
-# tap 'homebrew/services'
+# You can use Homebrew to download automatically the tools what you want to use. Brewfile is the file that defines the tools you want to download automatically via Homebrew.
 
-# casks
+# Items to be installed
+
+tap 'homebrew/cask'
+tap 'homebrew/services'
+
+# applications
 cask 'google-chrome'
 cask 'slack'
 cask 'postman'
@@ -18,8 +14,9 @@ cask 'zoomus'
 cask 'vscode'
 cask 'dbeaver-community'
 
-# brew 'yarn'
-# brew 'git'
-# brew 'postgresql'
-# brew 'zsh'
-# brew 'gpg'
+# technologies
+brew 'yarn'
+brew 'git'
+brew 'postgresql'
+brew 'zsh'
+brew 'gpg'
