@@ -19,3 +19,8 @@
 - Create repo with a file called Brefile
 - Add brew installs and cask installs
 - [Homebrew Brewfile docs](https://homebrew-file.readthedocs.io/en/latest/getting_started.html)
+
+### Setup
+run `brew bundle --file ~/Desktop/brewfile/Brewfile`
+run `psql -c "create database countries"`
+run `psql countries < ~/Desktop/countries.sql`
